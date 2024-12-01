@@ -5,6 +5,18 @@
 	height: fit-content;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .round {
     border-radius: 2%;
 }
@@ -21,14 +33,6 @@
 	margin-bottom: 3%;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+footer {
+    box-shadow: 0 50vh 0 50vh rgb(33, 37, 41);
 }
