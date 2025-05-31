@@ -1,0 +1,1 @@
+import{f as t,a as m}from"../chunks/DZfHtQr2.js";import{f as n,n as e}from"../chunks/D3aLaesG.js";import{H as f}from"../chunks/CRHFHIFl.js";var p=t("<!> Contact",1);function d(o){var a=p(),r=n(a);f(r),e(),m(o,a)}export{d as component};
