@@ -1,0 +1,11 @@
+White:
+#EEEEEE
+
+Grey:
+#686D76
+
+Dark-Grey:
+#373A40
+
+Orange:
+#DC5F00
