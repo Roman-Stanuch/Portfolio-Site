@@ -2,7 +2,7 @@
 
 <br/>
 
-<br/>
+<img src="ReadMe.PNG" alt="Site Homepage"/>
 
 This is a simple portfolio site I created using SvelteKit!
 
