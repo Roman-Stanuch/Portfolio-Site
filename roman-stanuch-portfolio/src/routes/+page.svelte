@@ -6,7 +6,7 @@
 <Header></Header>
 
 <div style="margin:2vh; display:flex; justify-content: center;">
-    <img src="/images/PolygonalLogo.png" alt="Logo" style="width: 25vw;"/>
+    <img src="./images/PolygonalLogo.png" alt="Logo" style="width: 25vw;"/>
 </div>
 
 <Billboard

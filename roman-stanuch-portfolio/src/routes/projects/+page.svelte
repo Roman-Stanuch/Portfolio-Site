@@ -14,6 +14,6 @@
 
 <div style="margin:2vh; display:flex; justify-content: center;">
     <a href="https://github.com/Roman-Stanuch" target="_blank">
-        <img src="/images/GithubLogo.svg" alt="Logo" style="width: 25vw;" />
+        <img src="./images/GithubLogo.svg" alt="Logo" style="width: 25vw;" />
     </a>
 </div>
