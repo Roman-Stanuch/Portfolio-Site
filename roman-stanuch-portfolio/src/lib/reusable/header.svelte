@@ -1,12 +1,16 @@
-<script>
+<script lang="ts">
     import { base } from "$app/paths";
+    let { homeDecoration = "", projectsDecoration = "", contactDecoration = "" } = $props();
+    let homeButtonSelected = $state(homeDecoration);
+    let projectsButtonSelected = $state(projectsDecoration);
+    let contactButtonSelected = $state(contactDecoration);
 </script>
 
 <div id="mainBox">
     <div id="secondaryBox">
-        <a class="headerItem" href="{base}/">Home</a>
-        <a class="headerItem" href="{base}/projects">Projects</a>
-        <a class="headerItem" href="{base}/contact">Contact</a>
+        <a class="headerItem {homeButtonSelected}" href="{base}/">Home</a>
+        <a class="headerItem {projectsButtonSelected}" href="{base}/projects">Projects</a>
+        <a class="headerItem {contactButtonSelected}" href="{base}/contact">Contact</a>
     </div>
 </div>
 
@@ -26,7 +30,7 @@
         gap: 1px;
         justify-content: center;
         align-items: center;
-        background-color: #DC5F00;
+        background-color: #dc5f00;
         width: 75%;
         height: 100%;
         border-radius: 25px;
@@ -48,6 +52,14 @@
 
     .headerItem:hover {
         background-color: #c74900;
+    }
+
+    .headerItem.selected {
+        background-color: #373A40;
+    }
+
+    .headerItem.selected:hover {
+        background-color: #2d2c33;
     }
 
     @media only screen and (max-width: 600px) {

@@ -1,9 +1,10 @@
 <script>
     import Header from "$lib/reusable/header.svelte";
     import Billboard from "$lib/reusable/billboard.svelte";
+    import Footer from "$lib/reusable/footer.svelte";
 </script>
 
-<Header></Header>
+<Header contactDecoration="selected"></Header>
 
 <div style="height: 2vh;"></div>
 
@@ -22,3 +23,5 @@
     ">Loading…</iframe
     >
 </div>
+
+<Footer></Footer>
