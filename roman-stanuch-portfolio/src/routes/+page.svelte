@@ -11,5 +11,5 @@
 
 <Billboard
     title="Greetings, I'm Roman!"
-    mainText="I'm currently a student studying computer science! I enjoy applying my programming skills towards creative endeavors and challenging problems. My current focus is on computer graphics and 3D applications, but I dabble in all realms of software development! Below you can find my most active social media presences to give you an idea of what I've been working on!"
+    mainText="I'm currently a student studying computer science! I enjoy applying my programming skills towards creative endeavors and challenging problems. My current focus is on computer graphics and 3D applications, but I dabble in all realms of software development!"
 ></Billboard>
